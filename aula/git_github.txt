@@ -1,0 +1,33 @@
+comand de Git no cmd pornt
+
+cd "C:/Users/joels_bhzg5ya/OneDrive/Desktop/Dev/Git/DIO/dio-desafio-github-primeiro-repositorio"
+ git config --global user.email "joelsonpaz1@gmail.com"
+ git config --global user.name "joelsonbr"
+
+git clone https://web.dio.me/lab/criando-seu-primeiro-repositorio-no-github-para-compartilhar-seu-progresso/learning/a6e285fa-b9a0-4bc2-8353-7b729dabcf0c?back=/play
+
+ele pegou um link do repositório onde ele clona na pasta (copia e cola), com isso podemos planejar o primeiro projeto.
+
+	
+git status
+
+ele ver o status da pasta que tem alguma atualização.
+
+
+git add .
+
+ele adiciona a versão local 
+
+
+git commit -m "Inclusão das do curso de Git´GtHub"
+
+git commit -> salvar instantâneo das alterações
+
+-m -> "flag" -> adicionar uma mensagem ao commit, breve descrição do que foi alterado
+
+"Inclusão das do curso de Git´GtHub" -> uma mensagem do que deve mostrar
+
+
+git push origin main
+
+adicionar para a nuvem do repositorio
